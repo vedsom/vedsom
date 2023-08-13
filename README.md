@@ -23,8 +23,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/abhishek-pandey-996925220" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhishek-pandey-996925220" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/abhipandey_223" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="abhipandey_223" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@abhipandey0314" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@abhipandey0314" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/abhived" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abhived" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/abhipandey0314?hr_r=1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@abhipandey0314" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
