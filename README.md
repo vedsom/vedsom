@@ -5,14 +5,26 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vedsom" alt="vedsom" /></a> </p>
 
+- 🔭 1st Project [Online Organic Food Store](https://vedsom.github.io/Sabzziwala.github.io/index.html)
+
+- 🌱 My UI/UX Work Examples **https://marvel-world.my.canva.site/teal-and-white-gradient-tech-and-gaming-retail-website, https://marvel-world.my.canva.site/car-ui**
+
+- 🔭 2nd Project (Currently local hosted) [What's App clone](https://www.linkedin.com/posts/abhishek-pandey-996925220_github-react-building-activity-7061003449982681088-N4Kp?utm_source=share&utm_medium=member_desktop)
+
+- 🔭 3rd Project [Dog Tinder website](https://vedsom.github.io/DogBuddy.github.io/)
+
+- 💬 Ask me about **Front-end, back-end, Open Source, Competitive Programming and Prompt Engineering**
+
 - 📫 How to reach me **abhipandey0314@gmail.com**
+
+- 📄 Know about my experiences [https://drive.google.com/file/d/1iAbcG-xMD5_O9M4V7ENNbPkl9wRiGsLI/view?usp=sharing](https://drive.google.com/file/d/1iAbcG-xMD5_O9M4V7ENNbPkl9wRiGsLI/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/abhishek-pandey-996925220/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/abhishek-pandey-996925220/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/abhishek-pandey-996925220" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhishek-pandey-996925220" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/abhipandey_223" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="abhipandey_223" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/@abhipandey0314" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@abhipandey0314" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/abhived" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abhived" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@abhipandey0314" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@abhipandey0314" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
