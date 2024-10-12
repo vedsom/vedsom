@@ -7,17 +7,15 @@
 
 - 🔭 1st Project [Online Organic Food Store](https://vedsom.github.io/Sabzziwala.github.io/index.html)
 
-- 🌱 My UI/UX Work Examples **https://marvel-world.my.canva.site/teal-and-white-gradient-tech-and-gaming-retail-website, https://marvel-world.my.canva.site/car-ui**
+- 🔭 2nd Project [E-Commerce Clothing Site](https://quickfitt.netlify.app/)
 
-- 🔭 2nd Project (Currently local hosted) [What's App clone](https://www.linkedin.com/posts/abhishek-pandey-996925220_github-react-building-activity-7061003449982681088-N4Kp?utm_source=share&utm_medium=member_desktop)
-
-- 🔭 3rd Project [Dog Tinder website](https://vedsom.github.io/DogBuddy.github.io/)
+- 🔭 3rd Project [Nutrients Plan Website](https://vedsom.github.io/Nutrient_plan.github.io/)
 
 - 💬 Ask me about **Front-end, back-end, Open Source, Competitive Programming and Prompt Engineering**
 
 - 📫 How to reach me **abhipandey0314@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1iAbcG-xMD5_O9M4V7ENNbPkl9wRiGsLI/view?usp=sharing](https://drive.google.com/file/d/1iAbcG-xMD5_O9M4V7ENNbPkl9wRiGsLI/view?usp=sharing)
+- 📄 Know about my experiences (https://drive.google.com/file/d/1w-APIAihSd7UnvoPC8mPFoFpAcTtLTLp/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
