@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Abhishek Pandey</h1>
-<h3 align="center">A passionate Full Stack developer(MERN) from India</h3>
+<h3 align="center">A passionate Full Stack developer(Python) from India</h3>
+<h3 align="center">Ex - Mailmodo Software Engineer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vedsom&label=Profile%20views&color=0e75b6&style=flat" alt="vedsom" /> </p>
 
@@ -11,7 +12,7 @@
 
 - 🔭 3rd Project [Nutrients Plan Website](https://vedsom.github.io/Nutrient_plan.github.io/)
 
-- 💬 Ask me about **Front-end, back-end, Open Source, Competitive Programming and Prompt Engineering**
+- 💬 Ask me about **Front-end, back-end, Open Source, Competitive Programming, and Prompt Engineering**
 
 - 📫 How to reach me **abhipandey0314@gmail.com**
 
