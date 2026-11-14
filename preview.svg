@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 723" width="384" height="723" xml:space="preserve" role="img" aria-label="ASCII portrait building itself in a terminal">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace}
+.t{font-size:13px;fill:#d6d6d6}
+.g{font-size:7px;fill:#d0d0d0}
+.c{font-size:7px;fill:#d0d0d0;fill-opacity:.55;animation:coarse 1.2s linear both}
+.f{animation:fin .5s ease-out both}
+.cur{opacity:0;animation:blink 1s steps(1) infinite}
+.scan{opacity:0}
+</style>
+<defs><clipPath id="tp"><rect x="24" y="46" height="24" width="230.4">
+</rect></clipPath></defs>
+<rect x=".5" y=".5" width="383" height="722" rx="12" fill="#0b0b0b" stroke="#2a2a2a"/>
+<path d="M1 36H383" stroke="#1f1f1f"/>
+<circle cx="22" cy="18" r="6" fill="#e0e0e0"/>
+<circle cx="42" cy="18" r="6" fill="#8a8a8a"/>
+<circle cx="62" cy="18" r="6" fill="#4a4a4a"/>
+<text class="t" x="192" y="22" text-anchor="middle" fill="#8a8a8a" style="font-size:12px;fill:#8a8a8a">abhishek@github: ~</text>
+<text class="t" x="24" y="62" clip-path="url(#tp)">abhishek@github ~ $ ./whoami</text>
+<g>
+<text class="g" x="24" y="170.4" textLength="4.2" lengthAdjust="spacing">.</text>
+<text class="g" x="24" y="178.1" textLength="25.2" lengthAdjust="spacing">@@@%+-</text>
+<text class="g" x="24" y="185.8" textLength="50.4" lengthAdjust="spacing">#%@@@@@@@#+-</text>
+<text class="g" x="24" y="193.5" textLength="79.8" lengthAdjust="spacing">#######%@@@@@@@%*-.</text>
+<text class="g" x="24" y="201.2" textLength="109.2" lengthAdjust="spacing">#****#**#####%%@@@@@@@%*=.</text>
+<text class="g" x="24" y="208.9" textLength="142.8" lengthAdjust="spacing">@@@%%#*******######%%@@@@@@@@@#+-.</text>
+<text class="g" x="24" y="216.6" textLength="336.0" lengthAdjust="spacing">@@@@@@@@@@@@%%#####@@%#%%%%@@@@@@@@@@@%*+-:                                   .-</text>
+<text class="g" x="24" y="224.3" textLength="336.0" lengthAdjust="spacing">=:     :+%@@@@@@@@@@@@@@%%%%%%%%%@%%@@@@@@@@@@@@@@%##*++======++=++**#%%@@@@@@@@</text>
+<text class="g" x="24" y="232.0" textLength="336.0" lengthAdjust="spacing">           :+#@@@@@@@@@@@@@@@@@@@@@@%%%%##%@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%</text>
+<text class="g" x="24" y="239.7" textLength="336.0" lengthAdjust="spacing">.            :-+#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%@%%%%%%%%%%%%%%%</text>
+<text class="g" x="24" y="247.4" textLength="336.0" lengthAdjust="spacing">:           #=*+:=+*****###**+===+*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="g" x="24" y="255.1" textLength="336.0" lengthAdjust="spacing">.@@@+  ++-  : =+..  .:==:-----::..:-=++*#%%%%#*+-.     .=#@@@@@@@@@@@@@@@@@%%%%@</text>
+<text class="g" x="24" y="262.8" textLength="315.0" lengthAdjust="spacing"> @# *=.@#*%%%# .@@@%: #-.--...  .     :::-:::            .=*%@@@@@@@@@@%#+.</text>
+<text class="g" x="24" y="270.5" textLength="315.0" lengthAdjust="spacing">:@#**:-@  @*:@.@@::*@+=:@+@==##+ :*= -  . .  = :          ::-=+#######**=-.</text>
+<text class="g" x="24" y="278.2" textLength="331.8" lengthAdjust="spacing">.#         --  @%#=*@@=:# ==*-.*-% #+%:#+*@%-@=%  *=  +*:  :=*+:=*+=@#+-=-.. ..</text>
+<text class="g" x="24" y="285.9" textLength="336.0" lengthAdjust="spacing">           .:.++#*#+%     . :  - *=+  @-.@*@.# #:@ *+**=@  +@*@*@%@#@%@*@@+@#@@@</text>
+<text class="g" x="24" y="293.6" textLength="336.0" lengthAdjust="spacing">                %@%@                      .  ::. === =  #  *+ @+@%%-%**@%@@-@#=@</text>
+<text class="g" x="24" y="301.3" textLength="336.0" lengthAdjust="spacing">               :%@@@+++=-.*:-=- :: .-                            :..--:=:==:=#%+</text>
+<text class="g" x="24" y="309.0" textLength="336.0" lengthAdjust="spacing">           #@@@@@@@@@@@@@% =#*+%+@@#@@@@@@ %@@%@-%: * #: : .  .   -  .:..::-:..:</text>
+<text class="g" x="24" y="316.7" textLength="336.0" lengthAdjust="spacing">          @@@@@@@@@@@@@@@@@           :. : -#%*%#@+ + @@@@@@@@@@@@@@#@%%@+:-----</text>
+<text class="g" x="24" y="324.4" textLength="336.0" lengthAdjust="spacing">         =@@@@@@@@@@@@@@@@@#                                 #@-:::+*+:##-------</text>
+<text class="g" x="24" y="332.1" textLength="336.0" lengthAdjust="spacing">         @@@@@@@@@@@@@@@@@@@                                         .:..:------</text>
+<text class="g" x="24" y="339.8" textLength="336.0" lengthAdjust="spacing">         %#%@@@@@@@@@@@@@#=*                                  .  ...::::--------</text>
+<text class="g" x="24" y="347.5" textLength="336.0" lengthAdjust="spacing">         #@@@@@@@@@@@@@@.@%%                                ......:::::-::-----=</text>
+<text class="g" x="24" y="355.2" textLength="336.0" lengthAdjust="spacing">.       .+%@@@@@@@@@@@@@ *-@                              .. ...:::::------=-===</text>
+<text class="g" x="24" y="362.9" textLength="336.0" lengthAdjust="spacing">..      *###%@@@@@@@@@@@.-%%                        . ........:::::::-------====</text>
+<text class="g" x="24" y="370.6" textLength="336.0" lengthAdjust="spacing">.. .    %@@ @@@@@@@@@@@@-#@        .. ..    .. .............::::::::------======</text>
+<text class="g" x="24" y="378.3" textLength="336.0" lengthAdjust="spacing">.....   %@ .@@@@@@@@@##=+#      ........  .  ..........:....::::::::------=-====</text>
+<text class="g" x="24" y="386.0" textLength="336.0" lengthAdjust="spacing">.....  -@+ @ %@@@@@@*+:@%   ...........................:::::::::-:--------===+==</text>
+<text class="g" x="24" y="393.7" textLength="336.0" lengthAdjust="spacing">..... .--  %:@@@@@@@@@@@+ ........::..........:...:.:::::::::-------==========++</text>
+<text class="g" x="24" y="401.4" textLength="336.0" lengthAdjust="spacing">::::. @@@ .@@@@@@@@@@@@@@  ....::::::::::::::::::::::::::::-------==========++++</text>
+<text class="g" x="24" y="409.1" textLength="336.0" lengthAdjust="spacing">:::::.-@@+.@@@@@@@@@@@@@@. :::::::::::::::::::::::::-------------==========+++++</text>
+<text class="g" x="24" y="416.8" textLength="336.0" lengthAdjust="spacing">::::::  @@#@@@@@@=+@@@@@@= ::::::::::::::::::::::::------------=====+=====+=++++</text>
+<text class="g" x="24" y="424.5" textLength="336.0" lengthAdjust="spacing">::::::: :@@@@@@@@.:@@@@@@= :::::::------::::::::---::---------========+++++=++++</text>
+<text class="g" x="24" y="432.2" textLength="336.0" lengthAdjust="spacing">-----:::. -@@@@@@  @@@@@@: :::--==------------------------==========+++++++++*++</text>
+<text class="g" x="24" y="439.9" textLength="336.0" lengthAdjust="spacing">--------: =@@@@@@  @@@@@@ .::----------------------=-----==========+++++++++++++</text>
+<text class="g" x="24" y="447.6" textLength="336.0" lengthAdjust="spacing">--------- +@@@@@%  %@@@@@-:::---------------------==---=-==========+++++++++++++</text>
+<text class="g" x="24" y="455.3" textLength="336.0" lengthAdjust="spacing">---------:.@@@@@*  =@@@@@:*-:-----------------------==============++++++++++++*+</text>
+<text class="g" x="24" y="463.0" textLength="336.0" lengthAdjust="spacing">::::::::.. -@@@@*   @@@@@#*-.....::.::::::::::::::---------======++++++++++++***</text>
+<text class="g" x="24" y="470.7" textLength="336.0" lengthAdjust="spacing">-==+++++++==@@@@%-+=@@@@@%=:-#****++++=========----:::::-------------===-===++++</text>
+<text class="g" x="24" y="478.4" textLength="336.0" lengthAdjust="spacing">@@@@@@@@@@@@@@@@@@@@@@%%@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%##******++</text>
+<text class="g" x="24" y="486.1" textLength="336.0" lengthAdjust="spacing">@@@@@@@@@@%#%@@@@@*#%#  @@@@@@   :%%%%######%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="g" x="24" y="493.8" textLength="336.0" lengthAdjust="spacing">=+======----@@@@@#-=*@@+#+:=+@=#@@#=++++====----=======++++**###%%%%%%%@@@@@@@@@</text>
+<text class="g" x="24" y="501.5" textLength="336.0" lengthAdjust="spacing">+++++++++===@@@@@*-:  :-     -= :*=++=++++*++++++++++++++++++++***#############*</text>
+<text class="g" x="24" y="509.2" textLength="336.0" lengthAdjust="spacing">**+**+++***=#@@@@+#% =%#%@@@%%%  %#=+=========++++++++++++*+++++++++***###%%%%##</text>
+<text class="g" x="24" y="516.9" textLength="336.0" lengthAdjust="spacing">=+++++++=*#::#@@@*@@@@@@@#@@@@@@@@*-++==------===+====++++++++******+++++*****##</text>
+<text class="g" x="24" y="524.6" textLength="336.0" lengthAdjust="spacing">========-+@@%##%#-:@@-=+@@@@@*--@@ .---=+++==-========-=+++********##***++++++++</text>
+<text class="g" x="24" y="532.3" textLength="336.0" lengthAdjust="spacing">+==--------==+++=. #@=*@@@@@.   @@.:::-:-==+++++=+==+++=====+++++***************</text>
+<text class="g" x="24" y="540.0" textLength="336.0" lengthAdjust="spacing">-==----::::+*++*=. +%#==%+*#:-::@% -===--=======++=====++++++++++*********##%%%%</text>
+<text class="g" x="24" y="547.7" textLength="336.0" lengthAdjust="spacing">-:------:::-###%*==%@@@%%%--+++@@%==+++===-----=====++======+++++**+*******#****</text>
+<text class="g" x="24" y="555.4" textLength="336.0" lengthAdjust="spacing">-------=---+**#+--=@@%%@@+=++*+@@%=+==========--=+=+++++++++===++++***++******++</text>
+<text class="g" x="24" y="563.1" textLength="336.0" lengthAdjust="spacing">=++=--:--:+***#---+@##@@@#####*#@#=++++===============+++++++*++++++++**********</text>
+<text class="g" x="24" y="570.8" textLength="336.0" lengthAdjust="spacing">--=-=-----+###*=+-#@%@@@@##%%%#%@#++++++====---=====+==++++===++++++====+**##**#</text>
+<text class="g" x="24" y="578.5" textLength="336.0" lengthAdjust="spacing">--=-==-=-=*+#%+===@@@@@@@%%%%%%@@@*#+-=++======----====++===+=++==+++++=====**#*</text>
+<text class="g" x="24" y="586.2" textLength="336.0" lengthAdjust="spacing">===-==--=##*+##++*@@@@@%*%%%##*@@%+**+==--==-=====----==+=+*+++=++++++++++++==++</text>
+<text class="g" x="24" y="593.9" textLength="336.0" lengthAdjust="spacing">=--==+==+##%*++**@%%%%@*++****=*%=+++=+++-:-==============+++***++++++++++*#**++</text>
+<text class="g" x="24" y="601.6" textLength="336.0" lengthAdjust="spacing">=-=--==+#####%+.+@%%##*==-----+#+:==+====+-::-==-====++=---=+++++++++*++++=-=+**</text>
+<text class="g" x="24" y="609.3" textLength="336.0" lengthAdjust="spacing">--==-==+*%****+-==+###*++==++++**=--=+==--===------========--==++**********+=--=</text>
+<text class="g" x="24" y="617.0" textLength="336.0" lengthAdjust="spacing">==---==+**#**+==**=:=+**++++#*+++-+=--==-==============++++=-:-===+****#****#*+-</text>
+<text class="g" x="24" y="624.7" textLength="336.0" lengthAdjust="spacing">==---==+++***++=+++=.:+**++++=:==--===--===-==-===========+++==---===++***++####</text>
+<text class="g" x="24" y="632.4" textLength="336.0" lengthAdjust="spacing">+=++*=-+*=+***#*+==+++--+*++*+:=---=-=++===-=+-:-==++=====-=+**+++=-==++****####</text>
+<text class="g" x="24" y="640.1" textLength="336.0" lengthAdjust="spacing">====***++*+**+***+++=+*+==-+++=*+--===++======++=--==+++++++==+++**++==++++**###</text>
+<text class="g" x="24" y="647.8" textLength="336.0" lengthAdjust="spacing">-==---+++==++**++*#**+=+*++=-:+#*++=--=+++++++==++===+++++**+**+===+**+++++++***</text>
+<text class="g" x="24" y="655.5" textLength="336.0" lengthAdjust="spacing">-=+==--=+:-+++=+*+*%*+*++*##*===+***=====+*++=+++=+*++++++****##**++++***++++++*</text>
+<text class="g" x="24" y="663.2" textLength="336.0" lengthAdjust="spacing">+=*++==*=++==++=-++*++**+++*####+++=+======++++=+++*+++=====+***####**+**+**+==+</text>
+<text class="g" x="24" y="670.9" textLength="336.0" lengthAdjust="spacing">*+++==+**-+#*+++=-=+++**++*+==+**+*++++=+====+++++=++**======+++*****##*+=+**+++</text>
+<text class="g" x="24" y="678.6" textLength="336.0" lengthAdjust="spacing">+++*+==+*+=+***+*+=+++*+**+*+==*********+-=+*+++**++*+*#*#*++++++*+****####+++*#</text>
+</g>
+</svg>

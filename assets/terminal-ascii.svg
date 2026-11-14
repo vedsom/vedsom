@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401 507" width="401" height="507" xml:space="preserve" role="img" aria-label="ASCII portrait building itself in a terminal">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace}
+.t{font-size:13px;fill:#d6d6d6}
+.g{font-size:7px;fill:#d0d0d0}
+.c{font-size:7px;fill:#d0d0d0;fill-opacity:.55;animation:coarse 1.2s linear both}
+.f{animation:fin .5s ease-out both}
+.cur{opacity:0;animation:blink 1s steps(1) infinite}
+.scan{opacity:0}
+@keyframes coarse{0%{opacity:0}15%{opacity:.85}70%{opacity:.85}100%{opacity:0}}
+@keyframes fin{from{opacity:0}to{opacity:1}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@keyframes scan{0%{transform:translateY(0);opacity:.7}90%{opacity:.7}100%{transform:translateY(385px);opacity:0}}
+</style>
+<defs><clipPath id="tp"><rect x="24" y="46" height="24" width="0">
+<animate attributeName="width" values="0.0;7.8;15.6;23.4;31.2;39.0;46.8;54.6;62.4;70.2;78.0;85.8;93.6;101.4;109.2;117.0;124.8;132.6;140.4;148.2;156.0;163.8;171.6;179.4;187.2;195.0;202.8;210.6;230.4" keyTimes="0.0000;0.0357;0.0714;0.1071;0.1429;0.1786;0.2143;0.2500;0.2857;0.3214;0.3571;0.3929;0.4286;0.4643;0.5000;0.5357;0.5714;0.6071;0.6429;0.6786;0.7143;0.7500;0.7857;0.8214;0.8571;0.8929;0.9286;0.9643;1.0000" calcMode="discrete" begin="0.3s" dur="1.6s" fill="freeze"/>
+</rect></clipPath></defs>
+<rect x=".5" y=".5" width="400" height="506" rx="12" fill="#0b0b0b" stroke="#2a2a2a"/>
+<path d="M1 36H400" stroke="#1f1f1f"/>
+<circle cx="22" cy="18" r="6" fill="#e0e0e0"/>
+<circle cx="42" cy="18" r="6" fill="#8a8a8a"/>
+<circle cx="62" cy="18" r="6" fill="#4a4a4a"/>
+<text class="t" x="200" y="22" text-anchor="middle" fill="#8a8a8a" style="font-size:12px;fill:#8a8a8a">abhishek@github: ~</text>
+<text class="t" x="24" y="62" clip-path="url(#tp)">abhishek@github ~ $ ./whoami</text>
+<rect class="cur" x="245.4" y="49" width="8" height="15" fill="#d0d0d0" style="animation-delay:1.9s"/>
+<g>
+<text class="c" x="24" y="108.8" textLength="172.2" lengthAdjust="spacing" style="animation-delay:2.33s">                       .    ..:::::::::..</text>
+<text class="g f" x="24" y="108.8" textLength="172.2" lengthAdjust="spacing" style="animation-delay:3.23s">                       -    =*@@@@@@@@#=-</text>
+<text class="c" x="24" y="116.5" textLength="189.0" lengthAdjust="spacing" style="animation-delay:2.38s">                       .:.::::::::::::::::::.</text>
+<text class="g f" x="24" y="116.5" textLength="193.2" lengthAdjust="spacing" style="animation-delay:3.28s">                       +%*#@@@@@@@@@@@@@@@@@+.</text>
+<text class="c" x="24" y="124.2" textLength="205.8" lengthAdjust="spacing" style="animation-delay:2.43s">                        ::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="124.2" textLength="205.8" lengthAdjust="spacing" style="animation-delay:3.33s">                        @@@@@@@@@@@@@@@@@@@@@@@@*</text>
+<text class="c" x="24" y="131.9" textLength="218.4" lengthAdjust="spacing" style="animation-delay:2.47s">                       :::::::::::::::::::::::::::::</text>
+<text class="g f" x="24" y="131.9" textLength="218.4" lengthAdjust="spacing" style="animation-delay:3.37s">                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@*</text>
+<text class="c" x="24" y="139.6" textLength="226.8" lengthAdjust="spacing" style="animation-delay:2.52s">                    ::::::::::::::::::::::::::::::::::</text>
+<text class="g f" x="24" y="139.6" textLength="226.8" lengthAdjust="spacing" style="animation-delay:3.42s">                    %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
+<text class="c" x="24" y="147.3" textLength="235.2" lengthAdjust="spacing" style="animation-delay:2.56s">                   ::::::::::::::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="147.3" textLength="235.2" lengthAdjust="spacing" style="animation-delay:3.46s">                   *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+</text>
+<text class="c" x="24" y="155.0" textLength="239.4" lengthAdjust="spacing" style="animation-delay:2.60s">                   ::::::::::::::::::::::::::::::::::::::</text>
+<text class="g f" x="24" y="155.0" textLength="243.6" lengthAdjust="spacing" style="animation-delay:3.50s">                  :@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:</text>
+<text class="c" x="24" y="162.7" textLength="247.8" lengthAdjust="spacing" style="animation-delay:2.65s">                   :::::::::::...:::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="162.7" textLength="247.8" lengthAdjust="spacing" style="animation-delay:3.55s">                   @@@@@@@@@%#*+*######%%%%@@@@@@@@@@@@@@@*</text>
+<text class="c" x="24" y="170.4" textLength="252.0" lengthAdjust="spacing" style="animation-delay:2.70s">                   ::::::::::.        ... ..::::::::::::::::</text>
+<text class="g f" x="24" y="170.4" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.60s">                  :@@@@@@@@##+      .:----=*##%@@@@@@@@@@@@#</text>
+<text class="c" x="24" y="178.1" textLength="256.2" lengthAdjust="spacing" style="animation-delay:2.74s">                  ::::::::::::..... ..    ..   .:::::::::::::</text>
+<text class="g f" x="24" y="178.1" textLength="256.2" lengthAdjust="spacing" style="animation-delay:3.64s">                  @@@@@@@@%%%#*==-----:. :--. -+#%@@@@@@@@@@#</text>
+<text class="c" x="24" y="185.8" textLength="256.2" lengthAdjust="spacing" style="animation-delay:2.79s">                  ::::::::::::::........  ..:.....:::::::::::</text>
+<text class="g f" x="24" y="185.8" textLength="260.4" lengthAdjust="spacing" style="animation-delay:3.69s">                  @@@@@@@@%%%%#*+=+++++=---+*+-+**#%@@@@@@@@@.</text>
+<text class="c" x="24" y="193.5" textLength="260.4" lengthAdjust="spacing" style="animation-delay:2.83s">                 ::::::::::::..             .....:::::::::::::</text>
+<text class="g f" x="24" y="193.5" textLength="260.4" lengthAdjust="spacing" style="animation-delay:3.73s">                 #@@@@@@@@@#**+       .   ::-==+*###%@@@@@@@@@</text>
+<text class="c" x="24" y="201.2" textLength="264.6" lengthAdjust="spacing" style="animation-delay:2.88s">                 ::::::::::.                     .:::::::::::::</text>
+<text class="g f" x="24" y="201.2" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.77s">                 %@@@@@@@%#=                    .+##*#%@@@@@@@@</text>
+<text class="c" x="24" y="208.9" textLength="264.6" lengthAdjust="spacing" style="animation-delay:2.92s">                 ::::::::::::::::::.....            .::::::::::</text>
+<text class="g f" x="24" y="208.9" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.82s">                 *@@@@@@@%@@%%%@@%#*++=-:...       .*##%@@@@@@@</text>
+<text class="c" x="24" y="216.6" textLength="264.6" lengthAdjust="spacing" style="animation-delay:2.97s">                  :::::::::::::::::::::::::::::::..  .:::::::::</text>
+<text class="g f" x="24" y="216.6" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.87s">                  #@@@@@@@@@@@@@@@@@@@@@@@@@@%%%*+-. =#%@@@@@@@</text>
+<text class="c" x="24" y="224.3" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.01s">                  .::::::::::::::::::::::::::::::::::..::::::::</text>
+<text class="g f" x="24" y="224.3" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.91s">                  *@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%**%@@@@@@@</text>
+<text class="c" x="24" y="232.0" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.06s">                   :::::::::::::::::::  .::::::::::::::::::::::</text>
+<text class="g f" x="24" y="232.0" textLength="264.6" lengthAdjust="spacing" style="animation-delay:3.96s">                  .@@@@%@@@@@@@@@@@@@#  *@@@@@@@@@@@@@%#@@@@@@@</text>
+<text class="c" x="24" y="239.7" textLength="260.4" lengthAdjust="spacing" style="animation-delay:3.10s">                   ::::::::::::::::::.   :::::::::::::::::::::</text>
+<text class="g f" x="24" y="239.7" textLength="264.6" lengthAdjust="spacing" style="animation-delay:4.00s">                   %@@@#%@@@@@@@@@@@%+   %@@@@@@@@@@@@%#@@@@@@.</text>
+<text class="c" x="24" y="247.4" textLength="260.4" lengthAdjust="spacing" style="animation-delay:3.15s">                  ::::::...:::::::...    ::::::::::::::.:::::.</text>
+<text class="g f" x="24" y="247.4" textLength="268.8" lengthAdjust="spacing" style="animation-delay:4.04s">                 .#%@@%*+++*#%@@%#+*+-  :##@@@@@@@@@@@%*@@@@@+ :</text>
+<text class="c" x="24" y="255.1" textLength="256.2" lengthAdjust="spacing" style="animation-delay:3.19s">                 :::::::.         ..      . .:::::::::..::::.</text>
+<text class="g f" x="24" y="255.1" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.09s">                 @@@@@%*=         ++     :*-=#@@@@@@%#*+@@@@+</text>
+<text class="c" x="24" y="262.8" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.24s">                 :::::::..      ........  .:          ..::::</text>
+<text class="g f" x="24" y="262.8" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.14s">                 @@#@@%#*=:     -*=+*===: +#    :..::.-+@@@@</text>
+<text class="c" x="24" y="270.5" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.28s">                 ::::::::.....:::.::::::::..:         ..::::</text>
+<text class="g f" x="24" y="270.5" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.18s">                 #@@@%%%#*++=*#%#+@@@@@@@@***:       :=+@@@@</text>
+<text class="c" x="24" y="278.2" textLength="256.2" lengthAdjust="spacing" style="animation-delay:3.33s">                 :::::::::::::::..:::::::::..:.........:::::.</text>
+<text class="g f" x="24" y="278.2" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.23s">                 #@@@%%%%%###%@#++@@@@@@@@@**%*+=---=+*#@%#@=</text>
+<text class="c" x="24" y="285.9" textLength="256.2" lengthAdjust="spacing" style="animation-delay:3.37s">                 ::..:::::::::::::..:::::::..:::::::.:::::.::</text>
+<text class="g f" x="24" y="285.9" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.27s">                .##-+@%%%%@@%##%%**+%@@@%@*+=#%%###***##%@+@*</text>
+<text class="c" x="24" y="293.6" textLength="256.2" lengthAdjust="spacing" style="animation-delay:3.42s">                 ::..:::::::::::::::::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="293.6" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.32s">                 @#-*@@%%%@@%@@@@@@@@@@@@#*#@%@@@@@%#%###@@@-</text>
+<text class="c" x="24" y="301.3" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.46s">                  :::::::::.:::::::....:::::::::::::::::::::</text>
+<text class="g f" x="24" y="301.3" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.36s">                 :%@@@@%%%#**@@@%#*+==+*%@@@@@@@@@@@@%%@#%%%</text>
+<text class="c" x="24" y="309.0" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.50s">                      :::::...   .::::::::.:::::::::::::  .:</text>
+<text class="g f" x="24" y="309.0" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.41s">                      @@@%#**-  :+@@@@@@%**#@@@%%@@%%%@%  +*</text>
+<text class="c" x="24" y="316.7" textLength="252.0" lengthAdjust="spacing" style="animation-delay:3.55s">                       .::::.    .::::::::.  .:::::::::::...</text>
+<text class="g f" x="24" y="316.7" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.45s">                      :+@@@%*-:::=#@@@@@@%+::+%#%@%%%%@@#**+</text>
+<text class="c" x="24" y="324.4" textLength="247.8" lengthAdjust="spacing" style="animation-delay:3.60s">                        ::::::.            .. .:::::::. :..</text>
+<text class="g f" x="24" y="324.4" textLength="252.0" lengthAdjust="spacing" style="animation-delay:4.50s">                        #@@@@#=:        .-:---+%@@@@@@= **=.</text>
+<text class="c" x="24" y="332.1" textLength="226.8" lengthAdjust="spacing" style="animation-delay:3.64s">                         :::::::::::...    ...::::::::</text>
+<text class="g f" x="24" y="332.1" textLength="226.8" lengthAdjust="spacing" style="animation-delay:4.54s">                        .@@@@@@%##**++=: .--=*#@@@@@@*</text>
+<text class="c" x="24" y="339.8" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.69s">                         ::::::::::::::::::::::::::::</text>
+<text class="g f" x="24" y="339.8" textLength="235.2" lengthAdjust="spacing" style="animation-delay:4.58s">                         @@@@@@@@@@@@@@@@@@%@@@@@@@@@  :</text>
+<text class="c" x="24" y="347.5" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.73s">                         ::::::::::::::::::::::::::::</text>
+<text class="g f" x="24" y="347.5" textLength="222.6" lengthAdjust="spacing" style="animation-delay:4.63s">                         %@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
+<text class="c" x="24" y="355.2" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.78s">                         :::::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="355.2" textLength="222.6" lengthAdjust="spacing" style="animation-delay:4.68s">                         %%%@@@@@@@@@@@@@@@@@@@@@@%%*</text>
+<text class="c" x="24" y="362.9" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.82s">                         :::::::::::::::::::::::::::.</text>
+<text class="g f" x="24" y="362.9" textLength="222.6" lengthAdjust="spacing" style="animation-delay:4.72s">                         ###%%%@@@@@@@@@@@@@@@@@%%##*</text>
+<text class="c" x="24" y="370.6" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.87s">                         :::::::::::::::::::::::::...</text>
+<text class="g f" x="24" y="370.6" textLength="222.6" lengthAdjust="spacing" style="animation-delay:4.77s">                         ***######%%@@@@@%%%%%####*+*</text>
+<text class="c" x="24" y="378.3" textLength="222.6" lengthAdjust="spacing" style="animation-delay:3.91s">                         ......::::::::::::::::......</text>
+<text class="g f" x="24" y="378.3" textLength="226.8" lengthAdjust="spacing" style="animation-delay:4.81s">                         *******#############****++=+-</text>
+<text class="c" x="24" y="386.0" textLength="239.4" lengthAdjust="spacing" style="animation-delay:3.96s">                         ........:::::::::.............:.</text>
+<text class="g f" x="24" y="386.0" textLength="243.6" lengthAdjust="spacing" style="animation-delay:4.86s">                         +++++++**#######****++++====--*+:</text>
+<text class="c" x="24" y="393.7" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.00s">                    .:. ...........:::::...........   .:::::.</text>
+<text class="g f" x="24" y="393.7" textLength="256.2" lengthAdjust="spacing" style="animation-delay:4.90s">                    =*+:=+++==++++**####***++++++==-.:*@%%%%-</text>
+<text class="c" x="24" y="401.4" textLength="277.2" lengthAdjust="spacing" style="animation-delay:4.04s">                  .::.  .........................  ..:::..:::.....</text>
+<text class="g f" x="24" y="401.4" textLength="281.4" lengthAdjust="spacing" style="animation-delay:4.95s">                 :=*%= --=====+++++++**+++++++==----+#%****##**+--:</text>
+<text class="c" x="24" y="409.1" textLength="294.0" lengthAdjust="spacing" style="animation-delay:4.09s">              ...::::.    .........................:::.......:..::::..</text>
+<text class="g f" x="24" y="409.1" textLength="302.4" lengthAdjust="spacing" style="animation-delay:4.99s">             :--+##*#+  .--=======+++++++=======++*##*++++++*#***###*+-:</text>
+<text class="c" x="24" y="416.8" textLength="315.0" lengthAdjust="spacing" style="animation-delay:4.13s">        .............:.       .. ..........................................</text>
+<text class="g f" x="24" y="416.8" textLength="319.2" lengthAdjust="spacing" style="animation-delay:5.04s">       :=+++****+++++*+:  ..:-----==========++****+++=+++====++====+++****+.</text>
+<text class="c" x="24" y="424.5" textLength="331.8" lengthAdjust="spacing" style="animation-delay:4.18s">   .........................       ............................................</text>
+<text class="g f" x="24" y="424.5" textLength="340.2" lengthAdjust="spacing" style="animation-delay:5.08s"> .-==++++=============+*+==-:....:--====++++++=================+=-------==++===:.</text>
+<text class="c" x="24" y="432.2" textLength="352.8" lengthAdjust="spacing" style="animation-delay:4.22s">.........................................................   .  ..           ........</text>
+<text class="g f" x="24" y="432.2" textLength="352.8" lengthAdjust="spacing" style="animation-delay:5.12s">====--------------------=================----------------------==:------:----=====-=</text>
+<text class="c" x="24" y="439.9" textLength="273.0" lengthAdjust="spacing" style="animation-delay:4.27s">                                                                .</text>
+<text class="g f" x="24" y="439.9" textLength="352.8" lengthAdjust="spacing" style="animation-delay:5.17s">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.:-:.:::::::::::::::::</text>
+<text class="c" x="24" y="447.6" textLength="0.0" lengthAdjust="spacing" style="animation-delay:4.31s"></text>
+<text class="g f" x="24" y="447.6" textLength="344.4" lengthAdjust="spacing" style="animation-delay:5.21s">      .   .....      ..............................             ..             ...</text>
+</g>
+<rect class="scan" x="24" y="78" width="353" height="2" fill="#d0d0d0" style="animation:scan 3.45s linear 2.2s forwards"/>
+<text class="t f" x="24" y="491" style="animation-delay:6.05s">abhishek@github ~ $</text>
+<rect class="cur" x="184.0" y="479" width="8" height="15" fill="#d0d0d0" style="animation-delay:6.05s"/>
+</svg>
