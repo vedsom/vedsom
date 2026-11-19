@@ -58,6 +58,7 @@ I build **Physical AI systems**: digital twins of real robots, quadrupeds and hu
 <a href="https://linkedin.com/in/abhishek-pandey-996925220"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=76B900" alt="LinkedIn"/></a>
 <a href="mailto:abhipandey0314@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=76B900" alt="Email"/></a>
 <a href="https://github.com/vedsom"><img src="https://img.shields.io/github/followers/vedsom?style=for-the-badge&logo=github&logoColor=76B900&label=Follow&labelColor=000000&color=76B900" alt="Follow on GitHub"/></a>
+<a href="https://leetcode.com/u/abhived/"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=76B900" alt="LeetCode"/></a>
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="sim to real"/>
