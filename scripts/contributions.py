@@ -135,9 +135,9 @@ def render(days, today, user):
   <g class="t" style="animation-delay:{0.9 + i * 0.08:.2f}s">
     <rect x="{tx}" y="{ty}" width="{tw}" height="{th}" fill="{PANEL}" stroke="{LINE}"/>
     <rect x="{tx}" y="{ty}" width="3" height="{th}" fill="{GREEN}"/>
-    <text x="{tx + 20}" y="{ty + 28}" font-family="{MONO}" font-size="13" fill="{INK_2}">{esc(lab)}</text>
+    <text x="{tx + 20}" y="{ty + 28}" font-family="{MONO}" font-weight="700" font-size="14" fill="{INK_2}">{esc(lab)}</text>
     <text x="{tx + 20}" y="{ty + 72}" font-family="'InterD', sans-serif" font-weight="800" font-size="36" fill="{WHITE}">{esc(val)}</text>
-    <text x="{tx + tw - 18}" y="{ty + 72}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{INK_3}">{esc(sub)}</text>
+    <text x="{tx + tw - 18}" y="{ty + 71}" text-anchor="end" font-family="{MONO}" font-weight="700" font-size="15" fill="{WHITE}">{esc(sub)}</text>
   </g>""")
 
     # monthly bars (single series -> one hue, labels only where non-zero)
@@ -157,17 +157,17 @@ def render(days, today, user):
             bars.append(f'<path class="b" style="animation-delay:{1.4 + i * 0.05:.2f}s" d="{path}" fill="{GREEN}">'
                         f'<title>{lab}: {v}</title></path>')
             bars.append(f'<text class="t" style="animation-delay:{1.9 + i * 0.05:.2f}s" x="{cx:.1f}" y="{by1 - hgt - 8:.1f}" '
-                        f'text-anchor="middle" fill="{WHITE}" font-size="13">{v}</text>')
+                        f'text-anchor="middle" fill="{WHITE}" font-weight="700" font-size="15">{v}</text>')
         else:
             bars.append(f'<rect x="{cx - bw / 2:.1f}" y="{by1 - 2}" width="{bw}" height="2" fill="#2a2a2a"/>')
-        bars.append(f'<text x="{cx:.1f}" y="{by1 + 22}" text-anchor="middle" fill="{INK_3}" font-size="12">{lab}</text>')
+        bars.append(f'<text x="{cx:.1f}" y="{by1 + 22}" text-anchor="middle" fill="{INK_2}" font-weight="700" font-size="13">{lab}</text>')
 
     desc = (f"{s['total']} contributions in the last year, {s['active']} active days, "
             f"longest streak {s['longest']} days, best day {s['best'][1]} on {s['best'][0]}.")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
 <title id="t">GitHub contributions for {esc(user)}</title><desc id="d">{esc(desc)}</desc>
 <style>
-{font_css("Anon", "InterD")}
+{font_css("Anon", "AnonB", "InterD")}
 .c{{opacity:0;animation:fade .5s ease-out forwards}}
 .t{{opacity:0;animation:fade .6s ease-out forwards}}
 .b{{transform-box:fill-box;transform-origin:50% 100%;transform:scaleY(0);animation:grow .8s cubic-bezier(.2,.8,.2,1) forwards}}
@@ -182,7 +182,7 @@ def render(days, today, user):
   <text x="{x0}" y="110" font-size="14" fill="{INK_2}"><tspan fill="{GREEN}" font-weight="700">{s['total']}</tspan> contributions in the last year</text>
 </g>
 <g>{''.join(heat)}</g>
-<g font-family="{MONO}" font-size="11" fill="{INK_3}">{''.join(month_lbl)}
+<g font-family="{MONO}" font-weight="700" font-size="12" fill="{INK_2}">{''.join(month_lbl)}
   <text x="{legend_x - 8}" y="110" text-anchor="end">less</text>{legend}
   <text x="{legend_x + 5 * 16 + 4}" y="110">more</text>
 </g>
