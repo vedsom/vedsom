@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Abhishek Pandey — Robotics Engineer · Physical AI · Digital Twins"/>
+<img src="assets/header.svg" width="100%" alt="Abhishek Pandey — Robotics Engineer · NVIDIA Omniverse Specialist · Physical AI Engineer"/>
 
 <p>
 <img src="assets/terminal-ascii.svg" width="43.4%" alt="ASCII portrait of Abhishek rendering in a terminal"/>
@@ -13,7 +13,7 @@
 
 I build **Physical AI systems**: digital twins of real robots, quadrupeds and humanoids, plus the perception, navigation and voice/vision agents that run on them, from **NVIDIA Isaac Sim** to real hardware.
 
-- **Digital twins** of Unitree Go2, G1 and H1 in Isaac Sim, bridged live to the real robots
+- **Digital twins** of the Unitree Go2, Unitree G1 and UR5 arm in Isaac Sim, bridged live to the real robots
 - **Autonomous navigation** on the Go2: LiDAR mapping, waypoint graphs and A* planning
 - **Voice + vision agents** on a real Unitree G1 with NVIDIA open models
 - **Multi-robot fleets**: AMRs, quadrupeds and humanoids working one job together

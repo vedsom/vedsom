@@ -23,10 +23,10 @@ def write(name, svg):
 
 # --------------------------------------------------------------------------- header
 def header():
-    W, H = 1200, 340
+    W, H = 1200, 370
     phrases = [
         "building digital twins in NVIDIA Isaac Sim",
-        "Unitree Go2 · G1 · H1 — sim to real",
+        "Go2 · G1 · UR5 — sim to real",
         "voice + vision agents on humanoids",
         "multi-robot fleets that work together",
     ]
@@ -46,10 +46,10 @@ def header():
 .r{i}{{animation:w{i} {period}s steps({n * 4}) infinite}}
 .k{i}{{animation:k{i} {period}s steps({n * 4}) infinite}}""")
         typing.append(f"""
-  <clipPath id="cp{i}"><rect class="r{i}" x="96" y="222" height="34" width="{n * cw + 2:.1f}"/></clipPath>
+  <clipPath id="cp{i}"><rect class="r{i}" x="96" y="268" height="34" width="{n * cw + 2:.1f}"/></clipPath>
   <g class="p{i}" {'' if i == 0 else 'opacity="0"'}>
-    <text clip-path="url(#cp{i})" x="96" y="246" font-family="{MONO}" font-size="20" fill="{WHITE}" xml:space="preserve">{esc(p)}</text>
-    <rect class="k{i} cur" x="98" y="229" width="11" height="22" fill="{GREEN}"/>
+    <text clip-path="url(#cp{i})" x="96" y="292" font-family="{MONO}" font-size="20" fill="{WHITE}" xml:space="preserve">{esc(p)}</text>
+    <rect class="k{i} cur" x="98" y="275" width="11" height="22" fill="{GREEN}"/>
   </g>""")
 
     telemetry = [
@@ -60,7 +60,7 @@ def header():
     ]
     tel = []
     for i, (k, v) in enumerate(telemetry):
-        y = 112 + i * 34
+        y = 98 + i * 30
         tel.append(f"""
     <g class="tl" style="animation-delay:{0.6 + i * 0.15:.2f}s">
       <rect x="878" y="{y - 11}" width="8" height="8" fill="{GREEN}" class="blink" style="animation-delay:{i * 0.4:.1f}s"/>
@@ -70,7 +70,7 @@ def header():
     </g>""")
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
-<title id="t">Abhishek Pandey — Robotics Engineer, Physical AI, Digital Twins</title>
+<title id="t">Abhishek Pandey — Robotics Engineer · NVIDIA Omniverse Specialist · Physical AI Engineer</title>
 <defs>
   <radialGradient id="glow" cx="0.08" cy="1.05" r="0.75">
     <stop offset="0" stop-color="{GREEN}" stop-opacity="0.28"/>
@@ -103,14 +103,14 @@ def header():
 <rect class="scan" x="0" y="0" width="{W}" height="2" fill="{GREEN}" fill-opacity="0.12"/>
 
 <g class="rise">
-  <text x="60" y="92" font-family="{MONO}" font-weight="700" font-size="16" letter-spacing="3" fill="{GREEN}">// ROBOTICS ENGINEER</text>
-  <text x="56" y="178" font-family="'InterD', sans-serif" font-weight="800" font-size="84" letter-spacing="-2" fill="{WHITE}">Abhishek Pandey</text>
+  <text x="56" y="150" font-family="'InterD', sans-serif" font-weight="800" font-size="84" letter-spacing="-2" fill="{WHITE}">Abhishek Pandey</text>
+  <text x="60" y="226" font-family="'InterD', sans-serif" font-weight="800" font-size="30" letter-spacing="-0.3" fill="{GREEN}" xml:space="preserve">Robotics Engineer<tspan fill="{INK_3}">   /   </tspan>NVIDIA Omniverse Specialist<tspan fill="{INK_3}">   /   </tspan>Physical AI Engineer</text>
 </g>
-<text x="60" y="246" font-family="{MONO}" font-weight="700" font-size="20" fill="{GREEN}">&gt;_</text>
+<text x="60" y="292" font-family="{MONO}" font-weight="700" font-size="20" fill="{GREEN}">&gt;_</text>
 {''.join(typing)}
 
 <g font-family="{MONO}" font-size="14">
-  <text x="878" y="72" fill="{INK_3}" letter-spacing="2">FLEET STATUS</text>
+  <text x="878" y="60" fill="{INK_3}" letter-spacing="2">FLEET STATUS</text>
   {''.join(tel)}
 </g>
 
