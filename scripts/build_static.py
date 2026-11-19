@@ -262,6 +262,78 @@ def card(p):
 """
 
 
+# --------------------------------------------------------------------------- simulation work
+SECTORS = [("Oil & Gas", "oil"), ("Automotive", "car"), ("Dairy", "dairy"), ("Aviation", "plane")]
+CLIENTS = ["Chevron", "Toyota", "GTA Airport"]
+SIM_TOOLS = ["Isaac Sim", "Isaac Lab", "Isaac Lab Arena", "Omniverse", "OpenUSD"]
+
+
+def sector_icon(kind, x, y):
+    s = f'fill="none" stroke="{GREEN}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"'
+    if kind == "oil":  # refinery: tower, tank and flame
+        return (f'<g {s}><path d="M{x+6} {y+46} V{y+14} H{x+16} V{y+46}"/><path d="M{x+11} {y+14} V{y+4}"/>'
+                f'<rect x="{x+22}" y="{y+26}" width="22" height="20" rx="3"/><path d="M{x} {y+46} H{x+48}"/>'
+                f'<path d="M{x+11} {y+4} q-4 -6 0 -10 q4 4 0 10"/></g>')
+    if kind == "car":
+        return (f'<g {s}><path d="M{x+2} {y+36} V{y+26} L{x+10} {y+24} L{x+17} {y+12} H{x+33} L{x+41} {y+24} L{x+46} {y+26} V{y+36} Z"/>'
+                f'<circle cx="{x+13}" cy="{y+38}" r="5" fill="{PANEL}"/><circle cx="{x+36}" cy="{y+38}" r="5" fill="{PANEL}"/></g>')
+    if kind == "dairy":  # milk bottle + tank
+        return (f'<g {s}><path d="M{x+8} {y+4} H{x+18} V{y+12} L{x+22} {y+20} V{y+46} H{x+4} V{y+20} L{x+8} {y+12} Z"/>'
+                f'<path d="M{x+4} {y+30} H{x+22}"/><rect x="{x+28}" y="{y+16}" width="18" height="30" rx="9"/></g>')
+    return (f'<g {s}><path d="M{x+24} {y+4} C{x+28} {y+4} {x+28} {y+10} {x+28} {y+14} V{y+20} L{x+46} {y+30} V{y+34} L{x+28} {y+29} '
+            f'V{y+38} L{x+33} {y+42} V{y+45} L{x+24} {y+42} L{x+15} {y+45} V{y+42} L{x+20} {y+38} V{y+29} L{x+2} {y+34} V{y+30} '
+            f'L{x+20} {y+20} V{y+14} C{x+20} {y+10} {x+20} {y+4} {x+24} {y+4} Z"/></g>')
+
+
+def simulations():
+    W, H = 1200, 340
+    tiles = []
+    tx0, tw, tg = 470, 160, 14
+    for i, (name, kind) in enumerate(SECTORS):
+        x = tx0 + i * (tw + tg)
+        tiles.append(f"""
+  <g class="in" style="animation-delay:{0.3 + i * 0.12:.2f}s">
+    <rect x="{x}" y="44" width="{tw}" height="160" fill="{PANEL}" stroke="{LINE}"/>
+    <rect x="{x}" y="44" width="{tw}" height="3" fill="{GREEN}"/>
+    <text x="{x + 20}" y="76" font-family="{MONO}" font-weight="700" font-size="13" fill="{INK_3}">0{i + 1}</text>
+    {sector_icon(kind, x + tw - 68, 62)}
+    <text x="{x + 20}" y="180" font-family="'InterD', sans-serif" font-weight="800" font-size="22" fill="{WHITE}">{esc(name)}</text>
+  </g>""")
+    chips, cx = [], W - 48
+    for t in reversed(SIM_TOOLS):
+        w = len(t) * 0.5459 * 14 + 22
+        cx -= w
+        chips.append(f'<rect x="{cx:.1f}" y="276" width="{w:.1f}" height="30" fill="none" stroke="{LINE_2}"/>'
+                     f'<text x="{cx + 11:.1f}" y="296" fill="{WHITE}">{esc(t)}</text>')
+        cx -= 8
+    clients = '<tspan fill="#5a5a5a">  ·  </tspan>'.join(esc(c) for c in CLIENTS)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
+<title id="t">50+ Isaac Sim simulations across oil and gas, automotive, dairy and aviation for clients including {', '.join(CLIENTS)}</title>
+<style>
+{font_css("Anon", "AnonB", "InterD", "InterM")}
+.in{{opacity:0;animation:in .7s ease-out forwards}}
+@keyframes in{{to{{opacity:1}}}}
+@media (prefers-reduced-motion:reduce){{.in{{opacity:1;animation:none}}}}
+</style>
+<rect width="{W}" height="{H}" fill="{BLACK}"/>
+<g class="in">
+  <text x="48" y="64" font-family="{MONO}" font-weight="700" font-size="15" letter-spacing="3" fill="{GREEN}">// INDUSTRIAL SIMULATION</text>
+  <text x="42" y="182" font-family="'InterD', sans-serif" font-weight="800" font-size="132" letter-spacing="-3" fill="{GREEN}">50+</text>
+  <text x="48" y="214" font-family="'InterM', sans-serif" font-weight="500" font-size="20" fill="{WHITE}">Isaac Sim simulations built for industry</text>
+</g>
+{''.join(tiles)}
+<line x1="48" y1="240.5" x2="{W - 48}" y2="240.5" stroke="{LINE}"/>
+<g class="in" style="animation-delay:.8s">
+  <text x="48" y="270" font-family="{MONO}" font-weight="700" font-size="13" letter-spacing="2" fill="{INK_3}">CLIENTS</text>
+  <text x="48" y="304" font-family="'InterD', sans-serif" font-weight="800" font-size="26" fill="{WHITE}" xml:space="preserve">{clients}</text>
+  <text x="{W - 48}" y="262" text-anchor="end" font-family="{MONO}" font-weight="700" font-size="13" letter-spacing="2" fill="{INK_3}">TOOLS</text>
+  <g font-family="{MONO}" font-weight="700" font-size="14">{''.join(chips)}</g>
+</g>
+{frame(W, H)}
+</svg>
+"""
+
+
 def footer():
     W, H = 1200, 70
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="sim to real">
@@ -282,4 +354,5 @@ if __name__ == "__main__":
     write("terminal-ascii.svg", terminal())
     for p in PROJECTS:
         write(f"card-{p['slug']}.svg", card(p))
+    write("simulations.svg", simulations())
     write("footer.svg", footer())

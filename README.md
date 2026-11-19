@@ -13,13 +13,19 @@
 
 I build **Physical AI systems**: digital twins of real robots, quadrupeds and humanoids, plus the perception, navigation and voice/vision agents that run on them, from **NVIDIA Isaac Sim** to real hardware.
 
+- **50+ industrial simulations** in Isaac Sim for oil & gas, automotive, dairy and aviation clients
+- **Robot learning and policy evaluation** with Isaac Lab and Isaac Lab Arena
 - **Digital twins** of the Unitree Go2, Unitree G1 and UR5 arm in Isaac Sim, bridged live to the real robots
 - **Autonomous navigation** on the Go2: LiDAR mapping, waypoint graphs and A* planning
 - **Voice + vision agents** on a real Unitree G1 with NVIDIA open models
 - **Multi-robot fleets**: AMRs, quadrupeds and humanoids working one job together
 - **AI industrial inspection** with synthetic data and detector training
 
-### `02` &nbsp;Featured projects
+### `02` &nbsp;Simulation work
+
+<img src="assets/simulations.svg" width="100%" alt="50+ Isaac Sim simulations across oil and gas, automotive, dairy and aviation for Chevron, Toyota and GTA Airport"/>
+
+### `03` &nbsp;Featured projects
 
 <p align="center">
 <a href="https://github.com/Chandra-2319/Multi_Agent_Physical_AI_Fleet_Twin"><img src="assets/card-fleet.svg" width="49%" alt="Multi-Agent Physical AI Fleet Twin"/></a>
@@ -30,11 +36,14 @@ I build **Physical AI systems**: digital twins of real robots, quadrupeds and hu
 
 <sub><b>Also in the lab:</b> vision inspection cell with Replicator synthetic data · G1 → AMR toolbox handover driven by GR00T</sub>
 
-### `03` &nbsp;Stack
+### `04` &nbsp;Stack
 
 <p>
 <img src="https://img.shields.io/badge/Isaac_Sim-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="NVIDIA Isaac Sim"/>
+<img src="https://img.shields.io/badge/Isaac_Lab-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="Isaac Lab"/>
+<img src="https://img.shields.io/badge/Isaac_Lab_Arena-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="Isaac Lab Arena"/>
 <img src="https://img.shields.io/badge/Omniverse-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="Omniverse"/>
+<img src="https://img.shields.io/badge/OpenUSD-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="OpenUSD"/>
 <img src="https://img.shields.io/badge/GR00T-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="GR00T"/>
 <img src="https://img.shields.io/badge/Nemotron-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="Nemotron"/>
 <img src="https://img.shields.io/badge/Cosmos-000000?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="Cosmos"/>
@@ -52,13 +61,13 @@ I build **Physical AI systems**: digital twins of real robots, quadrupeds and hu
 <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=76B900" alt="Git"/>
 </p>
 
-### `04` &nbsp;Connect
+### `05` &nbsp;Connect
 
 <p>
 <a href="https://linkedin.com/in/abhishek-pandey-996925220"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=76B900" alt="LinkedIn"/></a>
 <a href="mailto:abhipandey0314@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=76B900" alt="Email"/></a>
-<a href="https://github.com/vedsom"><img src="https://img.shields.io/github/followers/vedsom?style=for-the-badge&logo=github&logoColor=76B900&label=Follow&labelColor=000000&color=76B900" alt="Follow on GitHub"/></a>
 <a href="https://leetcode.com/u/abhived/"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=76B900" alt="LeetCode"/></a>
+<a href="https://github.com/vedsom"><img src="https://img.shields.io/github/followers/vedsom?style=for-the-badge&logo=github&logoColor=76B900&label=Follow&labelColor=000000&color=76B900" alt="Follow on GitHub"/></a>
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="sim to real"/>
